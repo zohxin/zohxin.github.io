@@ -1,2 +1,2 @@
 # xozu
-My GitHub pages Portfolio!
+My GitHub pages Portfolio! Coming soon...
