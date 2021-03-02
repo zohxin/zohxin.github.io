@@ -1,7 +1,9 @@
 <html>
 <script>
   let password = prompt('Enter password for download: ')
-  if (password === 'password1401') { let confirmation = confirm('Password correct.\nAre you sure you want to download this file (5GB)?') }
+  if (password === 'password1401') { let confirmation = confirm('Password correct, now you will be redirected to download this file (5GB).')
+    (confirmation = true ? <meta http-equiv="refresh" content="5; URL=https://drive.google.com/file/d/1RvPwAT-7aG4Avqddy1u83VCVo5Om52d0/view" /> : close())
+  }
   </script>
 </html>
-//  if (password === 'password1401') { let confirmation = confirm('Password correct.\nAre you sure you want to download this file (5GB)?') (confirmation = true ? <meta http-equiv="refresh" content="5; URL=https://doc-10-9o-docs.googleusercontent.com/docs/securesc/0iqmrkigpnkst46dq37md1l36jje6rc8/nh2lgi64e8nukc1m11vb4nmejs8tce3h/1614703350000/09023408703701512766/16837451260048317804/1RvPwAT-7aG4Avqddy1u83VCVo5Om52d0?e=download&authuser=0&nonce=ohaonqp4t3g52&user=16837451260048317804&hash=k82lhqagtppaea94gb3vjj0viln27b1l/" /> : close()) } else { alert('Password incorrect, try again.') location.reload(true) }
+( else { alert('Password incorrect, try again.') location.reload(true) }
