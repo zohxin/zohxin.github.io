@@ -2,7 +2,7 @@
 <script>
   let password = prompt('Enter password for download: ')
   
-  if (password === secrets.homework_password) {
+  if (password === `${secrets.HOMEWORK_PASSWORD}`) {
     let confirmation = confirm('Password correct, now you will be redirected to download the file (5GB).')
     if (confirmation = true) {
       //<meta http-equiv="refresh" content="1; URL=https://drive.google.com/file/d/1RvPwAT-7aG4Avqddy1u83VCVo5Om52d0/view?usp=sharing" />
