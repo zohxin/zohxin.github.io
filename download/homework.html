@@ -1,22 +1,23 @@
 <html>
 <script>
+  async function () {
   let password = prompt('Enter password for download: ')
-
-  if (password === 'password1401') {
-    let confirmation = confirm('Password correct, now you will be redirected to download the file (5GB).')
+  await if (password === 'password1401') {
+    await let confirmation = confirm('Password correct, now you will be redirected to download the file (5GB).')
   } else if (password !=== 'password1401'){
-      alert('Password incorrect, try again.')
-      location.reload(true)
-      return
+      await alert('Password incorrect, try again.')
+      await location.reload(true)
+      await return
   }
   
   if (confirmation = false) {
-    window.close()
-    return
+    await window.close()
+    await return
   } else if (confirmation = true) {
     //<meta http-equiv="refresh" content="1; URL=https://drive.google.com/file/d/1RvPwAT-7aG4Avqddy1u83VCVo5Om52d0/view?usp=sharing" />
-    window.location.replace('https://drive.google.com/file/d/1RvPwAT-7aG4Avqddy1u83VCVo5Om52d0/view?usp=sharing')
-    return
+    await window.location.replace('https://drive.google.com/file/d/1RvPwAT-7aG4Avqddy1u83VCVo5Om52d0/view?usp=sharing')
+    await return
+  }
   }
   </script>
 </html>
