@@ -4,14 +4,9 @@
   if (password == 'password1401') {
     let confirmation = confirm('Password correct, now you will be redirected to download the file (3GB)')
   } else if (password !== 'password1401'){
-      let confirmation2 = confirm('Password incorrect, try again?')
-      if (confirmation2 = true) {
+      alert('Password incorrect, try again.')
       location.reload(true)
-      }
-      if (confirmation2 = false) {
-      window.close()
-      return;
-      }
+      break;
   }
   
   if (confirmation = false) {
