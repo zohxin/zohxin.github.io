@@ -1,9 +1,9 @@
 <html>
 <script>
   let password = prompt('Enter password for download: ')
-  if (password === 'password1401') {
+  if (password == 'password1401') {
     var confirmation = confirm('Password correct, now you will be redirected to download the file (5GB).')
-  } else if (password !=== 'password1401'){
+  } else if (password !== 'password1401'){
       alert('Password incorrect, try again.')
       location.reload(true)
       return
