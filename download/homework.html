@@ -1,6 +1,6 @@
 <html>
 <script>
-let password = prompt(`Enter password for download: ${{ secrets.HOMEWORK_PASSWORD }}`)
+let password = prompt(`Enter password for download: ${ secrets.HOMEWORK_PASSWORD }`)
   if (password == 'password1401') {
     alert('Password correct, now you will be redirected to download the file (3GB)')
 window.location.replace('https://drive.google.com/file/d/1TwG3cFDn7jDKVErK06NmJxiTOKnQicwB/view?usp=sharing');
